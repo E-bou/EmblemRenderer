@@ -1,0 +1,38 @@
+{
+  "name": "emblemrenderer",
+  "author": "Faareoh",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc",
+    "dev": "bun run build && node dist/test.js"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@typescript-eslint/eslint-plugin": "^7.18.0",
+    "@typescript-eslint/parser": "^7.18.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-typescript": "^18.0.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "canvas": "^2.11.2"
+  },
+  "files": [
+    "dist/**/*",
+    "assets/**/*"
+  ],
+  "keywords": [
+    "dofus",
+    "dofus3"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/E-bou/EmblemRenderer.git"
+  },
+  "license": "ISC"
+}

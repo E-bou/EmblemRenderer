@@ -1,0 +1,26 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "@typescript-eslint"
+  ],
+  "extends": [
+    "airbnb-base",
+    "airbnb-typescript/base"
+  ],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "rules": {
+    "no-console": "off",
+    "no-new": "off",
+    "no-continue": "off",
+    "max-len": "off",
+    "no-restricted-syntax": "off",
+    "no-await-in-loop": "off"
+  },
+  "ignorePatterns": [
+    "dist/",
+    "node_modules/"
+  ]
+}
